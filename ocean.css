@@ -1,0 +1,38 @@
+.menu {
+    display: flex; /* Liste öğelerini yan yana hizalar */
+    justify-content: space-around; /* Öğeler arasında boşluk bırakır */
+    background-color: #f0f0f0; /* Menü arka plan rengi */
+    padding: 10px; /* Menü kenar boşluğu */
+  }
+
+  .menu {
+    text-align: center; /* Menüyü sayfa ortasına hizalar */
+  }
+  
+  .menu ul {
+    list-style: none; /* Madde işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline; /* Liste öğelerini yan yana hizalar */
+  }
+  
+  .menu a {
+    text-decoration: none; /* Link altı çizgilerini kaldırır */
+    color: #333; /* Link rengi */
+    padding: 8px 15px; /* Link iç boşluğu */
+  }
+  
+  .menu a:hover {
+    color: #000; /* Fare üzerine gelindiğinde link rengi */
+    background-color: #ccc; /* Fare üzerine gelindiğinde arka plan rengi */
+  }
+  .resim {
+    text-align: center;
+  }
+ .hmidArea h2 {
+    text-align: center;
+
+ }
